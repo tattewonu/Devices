@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+<link rel="stylesheet" href="main2.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Chakra+Petch:600" rel="stylesheet">
+
+    <title>myapp</title>
+    <style media="screen">
+      body, html{
+        margin:0;
+        height:100vh;
+        width:100vw;
+      }
+      input{
+        margin-top:350px;
+      }
+    </style>
+  </head>
+  <body>
+
+
+    <div class="wrapper">
+
+<div class="box e">
+
+<h1>HIGH SCORES</h1>
+<div class="box h">
+  <span id="highscores" class="highscores" type="text" name="highscores" placeholder="highscores"></span>
+
+
+</div>
+</div>
+<div class="box c">
+
+
+<h3>TIME REMAINING IN ROUND:</h3>
+
+<div class="border box">
+   <span class="time" type="text" name="gameTime" placeholder="gameTime"> </span>
+</div>
+
+<div class="arrow">
+  <a href="index.html">
+<img id="point" src="back1.png" alt="" width="40px">
+</a>
+</div>
+    </div>
+
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+
+    <script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+
+
+
+      <script src="frontend.js" charset="utf-8"></script>
+
+  </body>
+</html>
